@@ -1,0 +1,175 @@
+body{
+    background-color:#f8f8f8;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu li{
+    font-style: italic;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.menu li a:active{
+    color: green;
+}
+.menu li a{
+  font-size: 20px;
+    color:#8B00FF;
+}
+.menu li a:hover{
+    color:red; 
+}
+h3{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #EAEAEA;
+}
+.short_description li{
+    list-style: none;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    color: #707070;
+}
+.full_description li{
+    color:#484343;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: :left;
+    line-height: 24px;
+}
+.product_characteristics li{
+    color:#484343;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: :left;
+    line-height: 24px;
+    list-style-image: url(img/marker.JPG);
+    list-style-position: inside;
+    vertical-align: middle;
+}
+fieldset{
+    border-radius: 5px;
+    border-style: dashed;
+}
+.feed_back legend h3{
+    color:brown;
+    font-weight: bold;
+}
+.feed_back label{
+   vertical-align: middle;
+    font-style: oblique;
+    font-weight: 600;
+    padding: 4px 4px 4px 4px;
+    
+} 
+.feed_back input{
+    height: 20px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    vertical-align: middle;
+    border-radius: 7px;
+    border-color: #e5e5e5;
+    color:forestgreen;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.feed_back .input:focus{
+    border-width: medium;
+    border-color:chartreuse;
+    background-color: aquamarine;
+}
+.feed_back .button{
+    height:30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.feed_back textarea{
+    border-radius: 7px;
+    color:darkgreen;
+    font-size: 22px;
+}
+.goods_img{
+    outline: 3px solid darkslateblue;
+}
+.goods_img:hover{
+    outline: 3px ;
+}
+.logo img{
+    width:48px;
+    height: 48px;
+}
+.logo{
+    
+}
+.shop_name{
+    
+}
+.shop_name:hover:after{
+    content: "   - интернет магазин";
+}
+.header {
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.feed_back input[type="email"]:focus{
+    color:crimson;
+    background-color: coral;
+}
+.feed_back textarea{
+    text-transform: capitalize;    
+}
+.table_product_characteristics{
+    border-collapse: collapse;
+}
+.table_product_characteristics td:nth-child(3){
+   width:10%;
+   letter-spacing: 10px; 
+}
+.table_product_characteristics td:nth-child(4){
+   text-align: right;
+   width: 10%; 
+}
+.table_product_characteristics td:nth-child(5){
+   text-align: left;
+   width: 15%; 
+    padding-left:  20px;
+}
+h3:first-letter{
+    font-family:serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+}
+.n4{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.n4 td{
+    border: 1px solid black;
+    width: 40px;
+    text-align: center;
+}
+.n4 tr:first-child{
+    height: 60px;
+}
+.feed_back input[type="password"]:focus{
+    color:crimson;
+    background-color: coral;
+}
+.feed_back input[type="text"]:focus{
+    color:crimson;
+    background-color: coral;
+}
